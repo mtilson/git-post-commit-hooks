@@ -8,3 +8,4 @@
 1. `post-commit` working directory is the repo root, it is the same one where `.git` is located
 1. The `post-commit` script is Linux and MacOS compartible
 1. Logs for building and running container is available in `/tmp/git-post-commit` as `APPNAME-YYYYMMDD-HHMMSS-XXX` files
+1. [Link to the Repo](https://github.com/mtilson/git-post-commit-hooks)
