@@ -1,0 +1,14 @@
+version: '2.4'
+
+services:
+  myservice:
+    container_name: ${APPNAME:-myapp}
+    image: ${APPNAME:-myapp}:${APPVERSION:-latest}
+    networks:
+      - commonnet
+    ports:
+    - "80:80"
+
+networks:
+  commonnet:
+    name: common-network
